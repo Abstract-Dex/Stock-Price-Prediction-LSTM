@@ -1,6 +1,6 @@
 # Stock-Price-Prediction-LSTM
 
-LSTMs for stock price prediction in PyTorch and Tensorflow
+LSTMs for stock price prediction using PyTorch
 
 ## Introduction
 
@@ -8,7 +8,7 @@ This is a simple LSTM model for stock price prediction using PyTorch and Tensorf
 
 ## Installation
 
--PyTorch for macbook needs to be installed using the following command:
+PyTorch for macbook needs to be installed using the following command:
 `pip3 install torch torchvision torchaudio`
 
 Verify PyTorch using the following code:
@@ -27,3 +27,7 @@ print(torch.backends.mps.is_available())
 ```
 
 This uses the metal gpu support for macbook and will return True if the GPU is available.
+
+### Usage
+
+Run the jupyter notebook and the model will be trained and tested on the data. The loss will be plotted and the predicted prices will be plotted against the actual prices.

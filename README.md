@@ -8,10 +8,10 @@ This is a simple LSTM model for stock price prediction using PyTorch and Tensorf
 
 ## Installation
 
-PyTorch for macbook needs to be installed using the following command:
+-PyTorch for macbook needs to be installed using the following command:
 `pip3 install torch torchvision torchaudio`
 
-Test using the following code:
+Verify PyTorch using the following code:
 
 ```python
 import torch
@@ -19,7 +19,7 @@ x = torch.rand(5, 3)
 print(x)
 ```
 
-To check GPU availability:
+Check GPU availability:
 
 ```python
 import torch

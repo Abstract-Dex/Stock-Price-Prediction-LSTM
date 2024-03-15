@@ -26,7 +26,7 @@ import torch
 print(torch.backends.mps.is_available())
 ```
 
-This uses the metal gpu support for macbook and will return True if the GPU is available.
+This uses the metal gpu support for macs and will return True if the GPU is available.
 
 ### Usage
 
